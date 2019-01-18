@@ -19,6 +19,7 @@ public class SplashActivity extends AppCompatActivity {
         sharedPreferenceManager = new SharedPreferenceManager(this);
         if (sharedPreferenceManager.getBoolValues(AppContract.Preferences.IS_LOGGED_IN)) {
             finish();
+//            AsyncActivity.start(this);
             DatabaseActivity.start(this);
         } else {
             finish();
