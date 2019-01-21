@@ -40,4 +40,9 @@
     <string name="applications">Applications</string>
     <string name="job_alerts">Job Alerts</string>
     <string name="profile">Profile</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="invalid_lat_long_used">Invalid coordinates used</string>
+    <string name="no_address_found">No address found</string>
 </resources>
